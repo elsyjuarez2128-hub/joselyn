@@ -1,0 +1,189 @@
+[Gato.java](https://github.com/user-attachments/files/22585168/Gato.java)[Perro.java](https://github.com/user-attachments/files/22585166/Perro.java)# Mi codigo super cool
+[Delfin.java](https://github.com/user-attachments/files/22585141/Delfin.java)
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author elsyj
+ */
+public abstract class Delfin extends Animal {
+    
+    public Delfin(String nombre, int edad){
+        super(nombre, edad);
+    }
+   
+    public void hacerSonido(){
+      System.out.println(getNombre()+ "hace: ¡chirp chirp!");
+    }
+    public void moverse(){
+        System.out.print(getNombre() + " nada rapidamente en el agua.");
+    }
+            
+    
+}
+# Codigo Animal
+[Animal.java](https://github.com/user-attachments/files/22585160/Animal.java)
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author elsyj
+ */
+public abstract class Animal {
+private String nombre;
+private int edad;
+
+public Animal(String nombre, int edad){
+    this.nombre = nombre;
+    this.edad = edad;
+}
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+//Metodos abastractos
+    public abstract void hacerSonido();
+    public abstract void moverse();
+}
+
+# MainDelfin
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author elsyj
+ */
+public class Main {
+    public static void main(String[] args) {
+        Delfin miDelfin;
+        miDelfin = new Delfin("Ariel",4) {};
+    
+    miDelfin.hacerSonido();
+    miDelfin.moverse();
+    
+    
+}
+}
+
+[Main.java](https://github.com/user-attachments/files/22585164/Main.java)
+
+# Perro
+[/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author elsyj
+ */
+public abstract class Perro extends Animal implements Mascota {
+    public Perro(String nombre, int edad){
+        super(nombre, edad);
+      
+    }
+    public void hacerSonido(){
+        System.out.println(getNombre()+"dice: ¡Guau guau!");
+    }
+    public void moverse(){
+        System.out.println(getNombre()+"corre rapidamente");
+    }
+    public void jugar(){
+        System.out.println(getNombre() + "juega con la pelota.");
+    }
+    
+}
+Uploading Perro.java…]()
+
+  # Gato
+[U/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author elsyj
+ */
+public abstract class Gato extends Animal implements Mascota {
+ 
+    public Gato(String nombre,int edad){
+        super(nombre,edad);
+    }
+    public void hacerSonido(){
+        System.out.println(getNombre() + "dice:¡Miau miau!");
+    }
+    public void moverse(){
+        System.out.println(getNombre() + "se mueve siglosamente.");
+    }
+    public void jugar(){
+        System.out.println(getNombre() + "juega con un clacentin.");
+    }
+}
+ploading Gato.java…]()
+
+  # Main
+   [Mian.java](https://github.com/user-attachments/files/22585170/Mian.java)
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author elsyj
+ */
+public class Mian {
+    public static void main(String[] args) {
+        Perro perro =new Perro("Esmogli",4){};
+        Gato gato = new Gato("Michi",2) {};
+        Delfin delfin = new Delfin("Ariel",6){};
+        
+    perro.hacerSonido();
+    perro.moverse();
+    perro.jugar();
+    
+    
+    gato.hacerSonido();
+    gato.moverse();
+    gato.jugar();
+    
+    
+    delfin.hacerSonido();
+    delfin.moverse();
+    
+    }  
+}
+
+
+      
+  
+          
+          
+    
+  
+    
+
+
+
