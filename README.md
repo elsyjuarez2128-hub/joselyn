@@ -8,9 +8,12 @@ Listas Enlazadas |[Listas Enlazadas.pdf](https://github.com/user-attachments/fil
 U2ACT2 Ejercicio de Pila con VisuAlgo
 
 
-| Crear Pila      | Evidencia          | 
-| Ejercicios      |![insertar](https://github.com/user-attachments/assets/1c6c72bd-be1c-4c3e-9740-7b559322abbd)|
+| Crear Pila                               | Evidencia          | 
+| Ejercicios                               |![insertar](https://github.com/user-attachments/assets/1c6c72bd-be1c-4c3e-9740-7b559322abbd)|
 
-| Preguntas       |![preguntas](https://github.com/user-attachments/assets/3bf9008d-48a1-4c7c-91b2-ea9e84abb0a6)|
+| Preguntas                                |![preguntas](https://github.com/user-attachments/assets/3bf9008d-48a1-4c7c-91b2-ea9e84abb0a6)|
 
-U2ACT2 Especificación de la Pila
+|U2ACT3 Práctica Manual y Algorítmica Lista|![Listas Doblemente Enlazadas](https://github.com/user-attachments/assets/b9e8d5f7-7e55-48b9-b3eb-e1b24d4e24ef)|
+|Lista Circular|![Lista Circular](https://github.com/user-attachments/assets/a075a4ed-d474-4c0c-9f69-5a80a5bf62dc)|
+
+
